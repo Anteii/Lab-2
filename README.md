@@ -5,7 +5,7 @@
 
 ## Train pipeline
 
-I selected [модель классификации текстов](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment) for this practice work and modified it (by removing neutral class). Dockerfile for this stage located in `train_model` directory. Working directory structure for this stage:
+I selected [this model](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment) for the practice and modified it (by removing neutral class). Dockerfile for this stage located in `train_model` directory. Working directory structure for this stage:
 
 ```
 .
